@@ -1,9 +1,18 @@
 # LangGraph Tutorial
 
 ## Configure Development Environment
-1. Activate virtual environment
+1. Create and activate virtual environment
 ```bash
+# create virtual environment
+python -m venv myenv
+
+# activate
 source myenv/bin/activate
+```
+
+2. Install requirements if any
+```bash
+pip install -r requirements.txt
 ```
 
 ## Reference
